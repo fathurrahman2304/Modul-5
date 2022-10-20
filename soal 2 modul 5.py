@@ -9,6 +9,8 @@ while b == 0:
     umur = int(input("Masukkan umur: "))
     if umur == -1:
         break
+    elif umur < -1:
+        print("error")
     elif umur <= 2 and umur >= 0:
         print("Tiket gratis")
     elif umur >= 3 and umur <= 12:
